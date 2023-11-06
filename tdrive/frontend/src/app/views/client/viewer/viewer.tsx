@@ -152,7 +152,6 @@ const Footer = () => {
             {formatSize(status.details?.metadata?.size)}
           </Text.Info>
         </div>
-
         <div className="whitespace-nowrap">
           <Controls type={type} />
           <Tooltip tooltip = "Download" position="left">
